@@ -30,11 +30,11 @@ export default function Post({ postData }) {
                 <title>{`shahanknet/posts/${postData.id}`}</title>
             </Head>
 
-            <div className="flex flex-col">
-                <span className="text-gray-300 text-sm">
+            <div className="flex flex-col prose prose-stone p-3">
+                <span className="text-gray-300 text-sm pb-3">
                     Published on <date>{postData.date}</date> at <time>{postData.time}</time>
                 </span>
-                <h1 className="text-gray-100 text-5xl">{postData.id}: {postData.title}</h1>
+                <h1 className="text-gray-100 text-5xl underline">{postData.id}: {postData.title}</h1>
                 <div className="text-gray-100" dangerouslySetInnerHTML={{__html: postData.contentHTML}}></div>
             </div>
         </Layout>

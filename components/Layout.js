@@ -6,7 +6,7 @@ export default function Layout({ children }) {
         <div className="bg-black justify-between flex flex-col h-screen">
             <Header />
 
-            <div className="mb-auto">
+            <div className="mb-auto p-3">
                 {children}
             </div>
 
