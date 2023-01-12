@@ -9,8 +9,8 @@ export default function Home() {
             <h3 className="text-gray-100 text-3xl">Welcome to my blog.</h3>
             <br />
             <p className="text-gray-100">I am shahank.</p>
-            <p className="text-gray-100">While you're here, you should really check out my <Link href="/posts" className="underline font-semibold">posts</Link>.</p>
-            <p className="text-gray-100">I swear they're not <i>that</i> boring :-)</p>
+            <p className="text-gray-100">While you&apos;re here, you should really check out my <Link href="/posts" className="underline font-semibold">posts</Link>.</p>
+            <p className="text-gray-100">I swear they&apos;re not <i>that</i> boring :-)</p>
         </Layout>
     );
 }
