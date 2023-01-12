@@ -5,7 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'prose-text': ['Open Sans'],
+        'title-text': ['Lato'],
+        'date-text': ['Roboto Mono']
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
