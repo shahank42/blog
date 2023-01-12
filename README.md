@@ -2,6 +2,10 @@
 
 These are the files for my blog site.
 
+Please create an issue if the site deployment has failed, I'll try to look at it as soon as I can.
+
+---
+
 The cool thing about a markdown blog is that I can just commit markdown files into `/posts/` and they'll automatically be turned into blog posts.
 
 I made the decision of keeping the source code of my blog open to all in the spirit of free open source development and transparency.
