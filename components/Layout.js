@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Layout({ children }) {
     return (
-        <div className="bg-black flex flex-col h-screen justify-between">
+        <div className="bg-black justify-between flex flex-col h-screen">
             <Header />
 
             <div className="mb-auto">
