@@ -1,8 +1,8 @@
-# shahanknet
+# shahankNet
 
 These are the files for my blog site.
 
-Please create an issue if the site deployment has failed, I'll try to look at it as soon as I can.
+Please [create an issue](https://github.com/shahank42/blog/issues/new) if the site deployment has failed, I'll try to look at it as soon as I can.
 
 ---
 
@@ -27,7 +27,7 @@ Post frontmatter example (that's the "metadata" for each markdown post):
 
 - [ ] Design the home page
 - [ ] Design the posts page
-- [ ] Design the posts preview
+- [x] Design the posts preview
 - [ ] Design the post page
 - [ ] Design the 404 page
 - [ ] Create a cool sidebar
